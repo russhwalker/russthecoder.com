@@ -1,0 +1,30 @@
+﻿@model ASPNETMVCPostList.Models.KidNamesViewModel
+
+<h1>Kids</h1>
+<div class="row">
+    @using (Html.BeginForm())
+    {
+        <div id="kids">
+            @foreach (var name in Model.KidNames)
+            {
+                <div><input type="text" value="@name" name="KidNames" class="form-control" /></div>
+            }
+        </div>
+
+        <div class="row">
+            <button type="button" class="btn btn-sm btn-info add-kid">Add</button>
+            <button type="submit" class="btn btn-sm btn-primary">Save</button>
+        </div>
+    }
+</div>
+
+@section scripts{
+    <script>
+        $(function () {
+            $('.add-kid').click(function () {
+                $('#kids').append('<div><input type="text" class="form-control" name="KidNames" /></div>');
+                return false;
+            });
+        });
+    </script>
+}
