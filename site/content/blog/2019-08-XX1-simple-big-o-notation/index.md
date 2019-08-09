@@ -1,10 +1,10 @@
 ---
-title: Simple Big O Notation
+title: "Simple Big O Notation"
 date: "2019-08-09T23:46:37.121Z"
-description: "test test test"
+description: "Simple Big O Notation"
 ---
 
-Accompanying YouTube Video: [https://youtube.com/asdfasdfa](https://youtube.com/asdfasdfa)
+> Accompanying YouTube Video: [https://youtube.com/asdfasdfa](https://youtube.com/asdfasdfa)
 
 ## Notes
 - Big O Notation tries to explain how many operations, or how long it will take something to execute and how that changes with differeing input sizes.
@@ -15,7 +15,6 @@ Accompanying YouTube Video: [https://youtube.com/asdfasdfa](https://youtube.com/
 - "N" is the size of the input.
 - [Examples.xlsx](./Examples.xlsx)
 
----
 ---
 
 ### O(1) : Constant Time

@@ -5,6 +5,7 @@ import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm, scale } from "../utils/typography"
+import "./blog.css"
 
 class BlogPostTemplate extends React.Component {
   render() {
@@ -20,7 +21,7 @@ class BlogPostTemplate extends React.Component {
         />
         <h1
           style={{
-            ...scale(0.8),
+            ...scale(0.7),
             marginTop: rhythm(1),
             marginBottom: 0,
           }}
