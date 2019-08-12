@@ -6,7 +6,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm } from "../utils/typography"
 
-class About extends React.Component {
+class Contact extends React.Component {
   render() {
     const { data } = this.props
     const siteTitle = data.site.siteMetadata.title
@@ -15,13 +15,13 @@ class About extends React.Component {
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title="About Russ" />
         <Bio />
-        <strong>Some Stuff HEre</strong>
+        <strong>Some Stuff Here</strong>
       </Layout>
     )
   }
 }
 
-export default About
+export default Contact
 
 export const pageQuery = graphql`
   query {

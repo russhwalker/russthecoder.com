@@ -1,25 +1,22 @@
 ---
-title: "Simple Big O Notation"
-date: "2019-08-09T23:46:37.121Z"
-description: "Simple Big O Notation"
+title: "Big O Notation Simplified"
+date: "2019-08-12T20:00:00.000Z"
+description: "A simple explanation and guide to Big O Notation."
 ---
 
 > Accompanying YouTube Video: [https://youtube.com/asdfasdfa](https://youtube.com/asdfasdfa)
 
-## Notes
-- Big O Notation tries to explain how many operations, or how long it will take something to execute and how that changes with differeing input sizes.
-- It allows us to compare and classify algorythms in terms how long they take to complete.
-- Multiple ways to solve the same problem, most of the examples will be in arrays or some other type of collection since that's a very common use case.
-- Also it shows us how quickly this these operations grows.
-- Usually here we are just worried about the worst case scenario. So if we are trying to find a value in our array, it MIGHT be in the first index, but it COULD be in the last and we have to iterate through every item to find it.
-- "N" is the size of the input.
+- Big O Notation simply tries to explain how many operations a function or algorythm takes to execute.
+- These "operations" are also commonly expressed in time, so how long a function takes to complete, 1 second... 2 seconds... 10 seconds...
+- With Big O Notation we are able discover how quickly these operations grow as in the input grows. The input is expressed as "N"
+- Usually with Big O Notation we are just worried about the worst case scenario. So if we are trying to find a value in our array, it MIGHT be in the first index, but it COULD be in the last and we have to iterate through every item to find it.
 - [Examples.xlsx](./Examples.xlsx)
 
 ---
 
 ### O(1) : Constant Time
 - Number of operations is the same regardless of the size of the input.
-- Code Source: [O1-Constant.js](O1-Constant.js)
+- Code Source: [https://github.com/russhwalker/russthecoder.com/code-samples/2019-08-12-big-o-notation-simplified/O1-Constant.js](https://github.com/russhwalker/russthecoder.com/code-samples/2019-08-12-big-o-notation-simplified/O1-Constant.js)
 ```javascript
 const arr1 = [1, 2, 3, 4, 5];
 const arr2 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
@@ -32,7 +29,7 @@ const arr2Value = arr2[7];
 
 ### O(N) : Linear Time
 - Number of operations is proportional to the size of the input.
-- Code Source: [ON-Linear.js](ON-Linear.js)
+- Code Source: [https://github.com/russhwalker/russthecoder.com/code-samples/2019-08-12-big-o-notation-simplified/ON-Linear.js](https://github.com/russhwalker/russthecoder.com/code-samples/2019-08-12-big-o-notation-simplified/ON-Linear.js)
 ```javascript
 const arr1 = [1, 2, 3, 4, 5];
 const arr2 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
@@ -51,7 +48,7 @@ for (let i = 0; i < arr2.length; i++) {
 
 ### O(N^2) : Quadratic Time
 - Number of operations is the square of the number of inputs.
-- Code Source: [ON2-Quadratic.js](ON2-Quadratic.js)
+- Code Source: [https://github.com/russhwalker/russthecoder.com/code-samples/2019-08-12-big-o-notation-simplified/ON2-Quadratic.js](https://github.com/russhwalker/russthecoder.com/code-samples/2019-08-12-big-o-notation-simplified/ON2-Quadratic.js)
 ```javascript
 const arr1 = [1, 2, 3, 4, 5];
 const arr2 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
@@ -70,7 +67,7 @@ for (let i = 0; i < arr1.length; i++) {
 ### O(log N) Logarithmic 
 - Number of operations peaks at the beginning and then flattens as the size of the input increases.
 - Binary Search Tree
-- Code Source: [OlogN-Logarithmic.js](OlogN-Logarithmic.js)
+- Code Source: [https://github.com/russhwalker/russthecoder.com/code-samples/2019-08-12-big-o-notation-simplified/OlogN-Logarithmic.js](https://github.com/russhwalker/russthecoder.com/code-samples/2019-08-12-big-o-notation-simplified/OlogN-Logarithmic.js)
 - Original Source: [https://gist.github.com/alexhawkins/f993569424789f3be5db](https://gist.github.com/alexhawkins/f993569424789f3be5db)
 ```javascript
 class BinarySearchTree {
