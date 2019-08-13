@@ -1,0 +1,132 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>Big O Notation Simplified</title>
+
+    <link rel="stylesheet" href="../../css/reset.css">
+    <link rel="stylesheet" href="../../css/reveal.css">
+    <link rel="stylesheet" href="../../css/theme/black.css">
+    <link rel="stylesheet" href="../../lib/css/monokai.css">
+</head>
+
+<body>
+    <div class="reveal">
+        <div class="slides">
+
+            <section data-markdown>
+                ### Big O Notation Simplified
+
+                - Big O Notation simply tries to explain how many operations a function or algorithm takes to execute,
+                and how these operations change with different input sizes.               
+
+                - These *operations* are also commonly expressed in time, so we could also say we could measure how long
+                a function takes to complete.
+            </section>
+
+            <section data-markdown>
+                ### Arrays
+
+                Do you know what an array is?
+
+                ```javascript
+                const arrNumbers = [1, 2, 3, 4, 5];
+                const arrLetters = ['a', 'b', 'c'];
+                const arrObjects = [{id: 1, name: 'first'}, {id: 2, name: 'second'}, {id: 3, name: 'third'}}];
+                ```
+
+                Then you can understand Big O Notation.
+            </section>
+
+            <section data-markdown>
+                ### Simple
+                
+                Take this function and two inputs:
+                
+                ```javascript
+                function loopThroughArray(arr){
+                    for (let i = 0; i < arr.length; i++) {
+                        const item = arr[i];
+                    }
+                }
+                loopThroughArray([1, 2]);
+                loopThroughArray([1, 2, 3, 4, 5, 6, 7]);
+                ```
+
+                This is just a simple loop, in this example the loop is going to be slower in the second loop.  Explaining how much slower is what Big O Notation is used for.
+            </section>
+            
+            <section data-markdown>
+                ### O(1) : Constant Time
+
+                The number of operations is the same regardless of the size of the input.
+
+                ```javascript
+                const arr1 = [1, 2, 3, 4, 5];
+                const arr2 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+                const val1 = arr1[3];
+                const val2 = arr2[7];
+                ```
+
+                ![O1-Constant](./O1-Constant.PNG "O1 Constant")
+            </section>
+
+            <section data-markdown>
+                ### O(N) : Linear Time
+
+                The number of operations is proportional to the size of the input.
+
+                ```javascript
+                const arr1 = [1, 2, 3, 4, 5];
+                const arr2 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+                let totalArr1 = 0;
+                for (let i = 0; i < arr1.length; i++) {
+                    totalArr1 += arr1[i];
+                }
+                let totalArr2 = 0;
+                for (let i = 0; i < arr2.length; i++) {
+                    totalArr2 += arr2[i];
+                }
+                ```
+                ![ON-Linear](./ON-Linear.PNG "ON-Linear")
+            </section>
+
+            <section data-markdown>
+                ### O(N^2) : Quadratic Time
+
+                The number of operations is the square of the number of inputs.
+
+                ```javascript
+                const arr1 = [1, 2, 3, 4, 5];
+                const arr2 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+                for (let i = 0; i < arr1.length; i++) {
+                    var outerItem = arr1[i];
+                    for (let j = 0; j < arr2.length; j++) {
+                        var innerItem = arr2[j];
+                        let someSum = outerItem + innerItem;
+                    }
+                }
+                ```
+                ![ON2-Quadratic](./ON2-Quadratic.PNG "ON2-Quadratic")
+            </section>
+
+        </div>
+    </div>
+
+    <script src="../../js/reveal.js"></script>
+    <script>
+        Reveal.initialize({
+            dependencies: [
+                { src: '../../plugin/markdown/marked.js' },
+                { src: '../../plugin/markdown/markdown.js' },
+                { src: '../../plugin/notes/notes.js', async: true },
+                { src: '../../plugin/highlight/highlight.js', async: true }
+            ]
+        });
+    </script>
+</body>
+
+</html>

@@ -6,7 +6,7 @@ description: "A simple explanation and guide to Big O Notation."
 
 > Accompanying YouTube Video: [https://youtube.com/asdfasdfa](https://youtube.com/asdfasdfa)
 
-- Big O Notation simply tries to explain how many operations a function or algorythm takes to execute.
+- Big O Notation simply tries to explain how many operations a function or algorithm takes to execute.
 - These "operations" are also commonly expressed in time, so how long a function takes to complete, 1 second... 2 seconds... 10 seconds...
 - With Big O Notation we are able discover how quickly these operations grow as in the input grows. The input is expressed as "N"
 - Usually with Big O Notation we are just worried about the worst case scenario. So if we are trying to find a value in our array, it MIGHT be in the first index, but it COULD be in the last and we have to iterate through every item to find it.
