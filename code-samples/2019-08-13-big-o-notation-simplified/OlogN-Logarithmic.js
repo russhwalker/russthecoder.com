@@ -1,5 +1,3 @@
-//O(log N) - Logarithmic
-
 //Binary Search Tree
 //https://gist.github.com/alexhawkins/f993569424789f3be5db
 class BinarySearchTree {
