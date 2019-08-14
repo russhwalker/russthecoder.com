@@ -16,7 +16,7 @@ description: "A simple explanation and guide to Big O Notation."
 
 ### O(1) : Constant Time
 - Number of operations is the same regardless of the size of the input.
-- Sample Code Source: [O1-Constant.js](https://github.com/russhwalker/russthecoder.com/code-samples/2019-08-12-big-o-notation-simplified/O1-Constant.js)
+- Sample Code Source: [O1-Constant.js](https://github.com/russhwalker/russthecoder.com/blob/master/code-samples/2019-08-13-big-o-notation-simplified/O1-Constant.js)
 ```javascript
 const arr1 = [1, 2, 3, 4, 5];
 const arr2 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
@@ -29,7 +29,7 @@ const arr2Value = arr2[7];
 
 ### O(N) : Linear Time
 - Number of operations is proportional to the size of the input.
-- Sample Code Source: [ON-Linear.js](https://github.com/russhwalker/russthecoder.com/code-samples/2019-08-12-big-o-notation-simplified/ON-Linear.js)
+- Sample Code Source: [ON-Linear.js](https://github.com/russhwalker/russthecoder.com/blob/master/code-samples/2019-08-13-big-o-notation-simplified/ON-Linear.js)
 ```javascript
 const arr1 = [1, 2, 3, 4, 5];
 const arr2 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
@@ -48,7 +48,7 @@ for (let i = 0; i < arr2.length; i++) {
 
 ### O(N^2) : Quadratic Time
 - Number of operations is the square of the number of inputs.
-- Sample Code Source: [ON2-Quadratic.js](https://github.com/russhwalker/russthecoder.com/code-samples/2019-08-12-big-o-notation-simplified/ON2-Quadratic.js)
+- Sample Code Source: [ON2-Quadratic.js](https://github.com/russhwalker/russthecoder.com/blob/master/code-samples/2019-08-13-big-o-notation-simplified/ON2-Quadratic.js)
 ```javascript
 const arr1 = [1, 2, 3, 4, 5];
 const arr2 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
@@ -67,7 +67,7 @@ for (let i = 0; i < arr1.length; i++) {
 ### O(log N) Logarithmic 
 - Number of operations peaks at the beginning and then flattens as the size of the input increases.
 - Binary Search Tree
-- Sample Code Source: [OlogN-Logarithmic.js](https://github.com/russhwalker/russthecoder.com/code-samples/2019-08-12-big-o-notation-simplified/OlogN-Logarithmic.js)
+- Sample Code Source: [OlogN-Logarithmic.js](https://github.com/russhwalker/russthecoder.com/blob/master/code-samples/2019-08-13-big-o-notation-simplified/OlogN-Logarithmic.js)
 - Original Source: [https://gist.github.com/alexhawkins/f993569424789f3be5db](https://gist.github.com/alexhawkins/f993569424789f3be5db)
 ```javascript
 class BinarySearchTree {
