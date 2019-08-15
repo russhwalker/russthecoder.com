@@ -47,7 +47,7 @@ const Bio = () => {
         }}
       />
       <p>
-        Written by <strong>{author}</strong> who lives and works in Columbia, SC as a .NET/Web software developer.
+        Written by <strong>{author}</strong> who lives and works in Columbia, SC as a .NET/Web developer.
       </p>
     </div>
   )

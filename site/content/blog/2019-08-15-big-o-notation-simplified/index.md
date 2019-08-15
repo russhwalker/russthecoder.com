@@ -1,6 +1,6 @@
 ---
 title: "Big O Notation Simplified"
-date: "2019-08-12T20:00:00.000Z"
+date: "2019-08-15T20:00:00.000Z"
 description: "A simple explanation and guide to Big O Notation."
 ---
 
