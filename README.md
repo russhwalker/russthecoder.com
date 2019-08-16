@@ -1,1 +1,2 @@
-# russthecoder.com
+# RussTheCoder.com
+[RussTheCoder.com](russthecoder.com)

@@ -1,5 +1,5 @@
 import React from "react"
-import { useStaticQuery, graphql } from "gatsby"
+import { useStaticQuery, graphql, Link } from "gatsby"
 import Image from "gatsby-image"
 
 import { rhythm } from "../utils/typography"
@@ -25,7 +25,7 @@ const Bio = () => {
     }
   `)
 
-  const { author, social } = data.site.siteMetadata
+  const { author } = data.site.siteMetadata
   return (
     <div
       style={{
@@ -47,7 +47,8 @@ const Bio = () => {
         }}
       />
       <p>
-        Written by <strong>{author}</strong> who lives and works in Columbia, SC as a .NET/Web developer.
+        Written by <strong>{author}</strong> who lives and works around Columbia, SC as a developer. Interested in .NET/JavaScript/Web and all thing software development.&nbsp;
+        <Link to={`/contact`}>Contact Russ</Link>
       </p>
     </div>
   )

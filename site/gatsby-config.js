@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Russ The Coder`,
     author: `Russ Walker`,
-    description: `A starter blog demonstrating what Gatsby can do.`,
+    description: `A software development blog by Russ Walker.`,
     siteUrl: `https://russthecoder.com/`,
     social: {
       twitter: `russhwalker`,
@@ -50,15 +50,15 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        //trackingId: `ADD YOUR TRACKING ID HERE`,
+        trackingId: `UA-145852308-1`,
       },
     },
     `gatsby-plugin-feed`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `Russ The Coder Blog`,
+        short_name: `RussTheCoder`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,

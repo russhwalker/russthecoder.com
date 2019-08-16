@@ -141,5 +141,3 @@ bst2.add(10).add(20).add(30).add(5).add(8).add(3).add(9);
 console.log('bst2', bst2);
 ```
 ![OlogN-Logarithmic](./OlogN-Logarithmic.PNG "OlogN-Logarithmic")
-  
----
