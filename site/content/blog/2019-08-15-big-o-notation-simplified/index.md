@@ -1,10 +1,10 @@
 ---
 title: "Big O Notation Simplified"
-date: "2019-08-15T20:00:00.000Z"
+date: "2019-08-15T21:00:00.000Z"
 description: "A simple explanation and guide to Big O Notation."
 ---
 
-> Accompanying YouTube Video: [https://youtube.com/asdfasdfa](https://youtube.com/asdfasdfa)
+> Accompanying YouTube Video: [https://youtu.be/rA0qkWl6EgY](https://youtu.be/rA0qkWl6EgY)
 
 - Big O Notation simply tries to explain how many operations a function or algorithm takes to execute.
 - These "operations" are also commonly expressed in time, so how long a function takes to complete, 1 second... 2 seconds... 10 seconds...
