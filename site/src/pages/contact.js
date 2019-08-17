@@ -12,9 +12,14 @@ class Contact extends React.Component {
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
-        <SEO title="About Russ" />
+        <SEO title="Contact Russ" />
         <Bio />
-        <strong>Some Stuff Here</strong>
+        <h3>Get In Touch</h3>
+        <ul>
+          <li><a href="mailto:russ@russthecoder.com">russ@russthecoder.com</a></li>
+          <li><a href="https://github.com/russhwalker/">GitHub</a></li>
+          <li><a href="https://www.linkedin.com/in/russellhwalker/">LinkedIn</a></li>
+          </ul>
       </Layout>
     )
   }
