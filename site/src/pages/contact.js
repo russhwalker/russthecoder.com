@@ -17,8 +17,8 @@ class Contact extends React.Component {
         <h3>Get In Touch</h3>
         <ul>
           <li><a href="mailto:russ@russthecoder.com">russ@russthecoder.com</a></li>
-          <li><a href="https://github.com/russhwalker/">GitHub</a></li>
-          <li><a href="https://www.linkedin.com/in/russellhwalker/">LinkedIn</a></li>
+          <li><a href="https://github.com/russhwalker/" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+          <li><a href="https://www.linkedin.com/in/russellhwalker/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
           </ul>
       </Layout>
     )
