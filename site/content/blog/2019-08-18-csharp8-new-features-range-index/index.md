@@ -5,6 +5,8 @@ description: "C# 8 New Features - Range & Index Opeators"
 ---
 
 ## C# 8 Setup
+> Accompanying YouTube Video: [https://youtu.be/j7QQFAT50Og](https://youtu.be/j7QQFAT50Og)
+
 
 - First we need to make sure we have an up to date version of the dot net runtime installed, check it on from the command line:
   - 
