@@ -1,6 +1,6 @@
 ---
 title: "Gatsby On Microsoft Azure"
-date: "2019-08-21T20:00:00.000Z"
+date: "2019-09-15T20:00:00.000Z"
 description: "Steps for deploying a Gatsby site to a custom domain on Microsoft Azure"
 ---
 
