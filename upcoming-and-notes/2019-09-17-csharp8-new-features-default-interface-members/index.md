@@ -1,6 +1,6 @@
 ---
 title: "C# 8 New Features - Default Interface Members"
-date: "2019-09-08T20:00:00.000Z"
+date: "2019-09-17T20:00:00.000Z"
 description: "C# 8 New Features - Default Interface Members"
 ---
 
@@ -23,7 +23,7 @@ description: "C# 8 New Features - Default Interface Members"
 
 **Why would you want a default implementation of something in your interface?**
 
-*I my opinion, having default implementations allows use to write more flexible code. We can now provide some defaults for our implemented classes without having to defer to some **messy** inheritance model.*
+*In my opinion, having default implementations allows use to write more flexible code. We can now provide some defaults for our implemented classes without having to defer to some **messy** inheritance model.*
 
 ### Our widget Interface with two default members
 
@@ -70,4 +70,4 @@ description: "C# 8 New Features - Default Interface Members"
     }
 ```
 
-> Using the new default interface member from C# 8 we are able
+One great thing about this new language feature is that we are now able to add new members to an existing public interface without introducing breaking code changes.
